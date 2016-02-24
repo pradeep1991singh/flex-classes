@@ -20,20 +20,20 @@
 
 ## Installation:
 
-##### install via bower:
-install package and add it to bower.json dependencies
+##### Install via bower:
+Install package and add it to bower.json dependencies
 
 ```
 $ bower install flex-classes --save
 ```
 
-install package and add it to bower.json devDependencies
+Install package and add it to bower.json devDependencies
 
 ```
 $ bower install flex-classes --save-dev
 ```
 
-##### install via npm:
+##### Install via npm:
 
 ```
 $ npm install flex-classes
