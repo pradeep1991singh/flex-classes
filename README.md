@@ -1,7 +1,7 @@
 # flex-classes:
 > Flex utility classes
 
-## [usage](#usage):
+## Usage:
 ```
 
 <div class="flex__container direction__row-reverse">
@@ -18,16 +18,16 @@
 
 ```
 
-## installation:
+## Installation:
 
-### install via bower:
-** install package and add it to bower.json dependencies **
+##### install via bower:
+**install package and add it to bower.json dependencies**
 $ bower install flex-classes --save
 
-** install package and add it to bower.json devDependencies **
+**install package and add it to bower.json devDependencies**
 $ bower install flex-classes --save-dev
 
-### install via npm:
+##### install via npm:
 $ npm install flex-classes
 
 
