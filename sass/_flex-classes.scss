@@ -1,0 +1,115 @@
+// flex-classes 
+// ========================================
+
+// flex container
+// ==================================
+.flex__container {	
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flexbox; // 2011 (IE 10)
+	display: flex;
+	
+	&.inline__flex {		
+    display: -webkit-inline-flex;
+    display: -moz-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+	}
+	
+	// flex-direction
+	// Default is row
+	@each $direction in $directions {
+		&.direction__#{$direction} {
+			flex-direction: $direction;
+		}
+	}
+	
+	// flex-wrap
+	// Default is nowrap
+	@each $wrap in $wraps {
+		&.wrap__#{$wrap} {
+			flex-wrap: $wrap;
+		}
+	}
+	
+	// flex-flow
+	// Default is row || nowrap	
+	@each $direction in $directions {
+		@each $wrap in $wraps {
+			&.flow__#{$direction}__#{$wrap} {
+				flex-flow: $direction $wrap;
+			}
+		}
+	}
+	
+	// justify-content
+	// Default flex-start
+	@each $justify in $justify-content {
+		&.justify__#{$justify} {
+			justify-content: $justify;
+		}
+	}
+	
+	// align-items
+	// Default stretch
+	@each $align in $alignments {		
+		&.align__#{$align} {
+			align-items: $align;
+		}
+	}
+	
+	// align-content
+	// Default stretch
+	@each $align in $align-content {		
+		&.align-content__#{$align} {
+			align-content: $align;
+		}
+	}		
+
+	// flex items
+	// ========================================
+	.flex__item {
+		@each $number in $numbers {
+			
+			// order
+			// Default source order 
+			&.order__#{$number} {
+				order: $number;
+			}
+			
+			// flex-grow
+			// Default 0
+			&.grow__#{$number} {
+				flex-grow: $number;
+			}
+			
+			// flex-shrink
+			// Default 1
+			&.shrink__#{$number} {
+				flex-shrink: $number;		
+			}
+			
+			// TODO:PS:1: flex item flex props
+			// default 0 1 auto
+			// flex: none | [ <'flex-grow'> <'flex-shrink'>? || <'flex-basis'> ]
+			
+		}
+		
+		// flex-basis
+		// Default auto
+		@each $basis in $basis-percentage {
+			&.basis__#{$basis} {
+				flex-basis: $basis;			
+			}
+		}
+		
+		// align-self
+		@each $align in $alignments {		
+			&.align__#{$align} {
+				align-self: $align;
+			}
+		}	
+		
+	}
+
+}

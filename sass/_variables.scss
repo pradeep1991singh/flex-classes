@@ -1,0 +1,16 @@
+// Flex Varibales
+// ====================
+
+// common variables
+$alignments: flex-start, flex-end, center, baseline, stretch;
+
+// flex box variables
+$directions: row, row-reverse, column, column-reverse;
+$wraps: nowrap, wrap, wrap-reverse;
+$justify-content: flex-start, flex-end, center, space-between, space-around;
+$align-content: flex-start, flex-end, center, 
+								space-between, space-around, stretch;
+
+// flex item variables
+$numbers: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12;
+$basis-percentage: 10%, 20%, 30%, 40%, 50%, 60%, 70%, 80%, 90%;

@@ -1,0 +1,44 @@
+// custom for just styling ui
+// only used in styling demo page
+// not required to use in this project
+// while using this in your projecr
+// you dont need to include this
+// ========================================================
+
+$red: random(256)-1; 
+$green: random(256)-1; 
+$blue: random(256)-1;
+$alpha: random(100)/100;
+
+main {
+	font-family: cursive;
+	
+	h1 {
+		text-decoration: underline;
+	}
+
+	// random colors
+	.random__colors__box {
+		color: rgb($red, $green, $blue);
+		background-color: rgba($red, $green, $blue, $alpha);
+		border: 1px solid #000;
+	}
+	
+	// box borders
+	.flex__container {
+		border: solid #6AC5AC 3px;
+		
+		.flex__item {
+			border: solid #FDC72F 3px;
+		}
+	}
+	
+	.flex__container {
+		min-height: 320px;
+		
+		.flex__item {
+			height: 150px;
+		}	
+	}
+
+}

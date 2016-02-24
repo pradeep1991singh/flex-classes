@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en-US">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flex Classes</title>
+
+  <!-- Disable tap highdivght on IE -->
+  <meta name="msappdivcation-tap-highdivght" content="no">
+
+  <!-- Add to homescreen for Chrome on Android -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="appdivcation-name" content="Evernym">
+  <!--<link rel="icon" sizes="192x192" href="images/touch/chrome-touch-icon-192x192.png">-->
+
+  <!-- Add to homescreen for Safari on iOS -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="Web Starter Kit">
+  <link rel="apple-touch-icon" href="images/touch/apple-touch-icon.png">
+
+  <!-- Tile icon for Win8 (144x144 + tile color) -->
+  <meta name="msappdivcation-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">
+  <meta name="msappdivcation-TileColor" content="#2F3BA2">
+
+  <!-- Color the status bar on mobile devices -->
+  <meta name="theme-color" content="#515159">
+  
+  <!-- inject:css -->
+  <link rel="stylesheet" href="dist/custom-styles.css">
+  <link rel="stylesheet" href="dist/styles.css">
+  <!-- endinject -->
+    
+</head>
+
+<body>
+  
+  <main>
+
+    <header>
+      <h1>Flex box classes</h1>
+    </header>
+    
+    <!--=================== flex box =======================================-->
+    <h3>flex__container</h3>
+    <div class="flex__container">
+      <div class="flex__item">
+        flex item 1
+      </div>
+      <div class="flex__item">
+        flex item 2
+      </div>
+      <div class="flex__item">
+        flex item 3
+      </div>
+    </div>
+    <br />
+
+    <h3>flex__container inline__flex</h3>
+    <div class="flex__container inline__flex">
+      <div class="flex__item">
+        flex item 1
+      </div>
+      <div class="flex__item">
+        flex item 2
+      </div>
+      <div class="flex__item">
+        flex item 3
+      </div>
+    </div>
+    <br />
+    
+    <div id="directions">
+      <!--placeholder for directions html -->
+    </div>
+    
+    <div id="wraps">
+      <!-- placeholder for wraps html -->
+    </div>
+    
+    <div id="flows">
+      <!-- placeholder for flow html -->
+    </div>
+    
+    <div id="justify">
+      <!-- placeholder for justify html -->
+    </div>
+    
+    <div id="aligns">
+      <!-- placeholder for align items html -->
+    </div>
+    
+    <div id="align-content">
+      <!-- placeholder for align content html -->
+    </div>    
+
+    <!--================ flex items =================================-->
+    <h2>order:</h2>
+    <h3>// Default source order<br />
+      // order property controls the order in which they appear 
+      in the flex container.<br />
+      flex__item order__2, order__3, order__1
+    </h3>     
+    <div class="flex__container">
+      <div class="flex__item order__2">
+        flex item 1 order__2
+      </div>
+      <div class="flex__item order__3">
+        flex item 2 order__3
+      </div>
+      <div class="flex__item order__1">
+        flex item 3 order__1
+      </div>
+    </div>
+    <br />    
+    
+    <h2>flex-grow:</h2>
+    <h3>// Default 1<br />
+      // This is the shorthand for flex-grow, 
+      flex-shrink and flex-basis combined.<br />
+      flex__item grow__1, grow_2, grow_3
+    </h3>     
+    <div class="flex__container align__center">
+      <div class="flex__item grow__1">
+        flex item 1 grow__1
+      </div>
+      <div class="flex__item grow__2">
+        flex item 2 grow__2
+      </div>
+      <div class="flex__item grow__3">
+        flex item 3 grow__1
+      </div>
+    </div>
+    <br />
+    
+    <h2>flex-shrink:</h2>
+    <h3>// Default 1<br />
+      // This defines the ability for a flex item to shrink if necessary. <br />
+      flex__item shrink 1 to 12
+    </h3>    
+    <div class="flex__container">
+      <div class="flex__item shrink__1">
+        flex item 1 shrink__1
+      </div>
+      <div class="flex__item shrink__2">
+        flex item 2 shrink__2
+      </div>
+      <div class="flex__item shrink__3">
+        flex item 3 shrink__3
+      </div>
+      <div class="flex__item shrink__4">
+        flex item 4 shrink__4
+      </div>
+      <div class="flex__item shrink__5">
+        flex item 5 shrink__5
+      </div>
+      <div class="flex__item shrink__6">
+        flex item 6 shrink__6
+      </div>
+      <div class="flex__item shrink__7">
+        flex item 7 shrink__7
+      </div>
+      <div class="flex__item shrink__8">
+        flex item 8 shrink__8
+      </div>
+      <div class="flex__item shrink__9">
+        flex item 9 shrink__9
+      </div>
+      <div class="flex__item shrink__10">
+        flex item 10 shrink__10
+      </div>
+      <div class="flex__item shrink__11">
+        flex item 11 shrink__11
+      </div>
+      <div class="flex__item shrink__12">
+        flex item 12 shrink__12
+      </div>
+      <div class="flex__item shrink__1">
+        flex item 13 shrink__1
+      </div>
+      <div class="flex__item shrink__2">
+        flex item 14 shrink__1
+      </div>
+    </div>
+    <br />     
+    
+    <div id="basis">
+      <!-- placeholder for basis flex item html -->
+    </div>    
+    
+    <div id="align-self">
+      <!-- placeholder for align item self html -->
+    </div>
+
+    <footer>
+    </footer>
+
+  </main>
+  
+  <!-- inject:js -->
+  <script src="scripts/main.js"></script>
+  <!-- endinject -->  
+
+</body>
+
+</html>

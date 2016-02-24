@@ -1,0 +1,16 @@
+main {
+  font-family: cursive; }
+  main h1 {
+    text-decoration: underline; }
+  main .random__colors__box {
+    color: #56caaa;
+    background-color: rgba(86, 202, 170, 0.1);
+    border: 1px solid #000; }
+  main .flex__container {
+    border: solid #6AC5AC 3px; }
+    main .flex__container .flex__item {
+      border: solid #FDC72F 3px; }
+  main .flex__container {
+    min-height: 320px; }
+    main .flex__container .flex__item {
+      height: 150px; }

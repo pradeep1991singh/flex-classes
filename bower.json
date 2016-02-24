@@ -1,0 +1,23 @@
+{
+  "name": "flex-classes",
+  "description": "Flex utility classes",
+  "main": "dist/styles.css",
+  "authors": [
+    "Pradeep singh (pradeep1991singh)"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "flex"
+  ],
+  "moduleType": [
+    "globals"
+  ],
+  "homepage": "index.html",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "flex-classes",
+  "version": "1.0.0",
+  "description": "Flex utility classes",
+  "main": "dist/styles.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pradeep singh (pradeep1991singh)",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-config": "^0.3.0",
+    "gulp-natural-sort": "^0.1.1",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rimraf": "^0.2.0",
+    "gulp-sass": "^2.2.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-typescript": "^2.11.0",
+    "gulp-watch": "^4.3.5",
+    "run-sequence": "^1.1.5"
+  }
+}
