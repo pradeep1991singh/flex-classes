@@ -57,46 +57,46 @@ for (let wrap of wraps) {
     
     html += `<div class="flex__container wrap__${wrap}">
       <div class="flex__item">
-        flex item 1 wrap nowrap
+        flex item 1
       </div>
       <div class="flex__item">
-        flex item 2 wrap nowrap
+        flex item 2
       </div>
       <div class="flex__item">
-        flex item 3 wrap nowrap
+        flex item 3
       </div>
       <div class="flex__item">
-        flex item 4 wrap nowrap
+        flex item 4
       </div>
       <div class="flex__item">
-        flex item 5 wrap nowrap
+        flex item 5
       </div>
       <div class="flex__item">
-        flex item 6 wrap nowrap
+        flex item 6
       </div>
       <div class="flex__item">
-        flex item 7 wrap nowrap
+        flex item 7
       </div>
       <div class="flex__item">
-        flex item 8 wrap nowrap
+        flex item 8
       </div>
       <div class="flex__item">
-        flex item 9 wrap nowrap
+        flex item 9
       </div>
       <div class="flex__item">
-        flex item 10 wrap nowrap
+        flex item 10
       </div>
       <div class="flex__item">
-        flex item 11 wrap nowrap
+        flex item 11
       </div>
       <div class="flex__item">
-        flex item 12 wrap nowrap
+        flex item 12
       </div>
       <div class="flex__item">
-        flex item 13 wrap nowrap
+        flex item 13
       </div>
       <div class="flex__item">
-        flex item 14 wrap nowrap
+        flex item 14
       </div>
     </div>
     <br />`;
