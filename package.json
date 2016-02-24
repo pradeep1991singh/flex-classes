@@ -6,7 +6,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Pradeep singh (pradeep1991singh)",
+  "author": {
+    "name": "Pradeep singh",
+    "email": "pradeep1991singh@gmail.com",
+    "github": "pradeep1991singh"
+  },
   "license": "ISC",
   "devDependencies": {
     "gulp": "^3.9.1",
