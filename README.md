@@ -40,8 +40,8 @@ $ npm install flex-classes
 ```
 
 ## Contributors
-
-Let people know how they can dive into the project, include important links to things like issue trackers, irc, twitter accounts if applicable.
+[@pradeep91singh] (https://twitter.com/pradeep91singh)
+[Issue tracking] (https://github.com/pradeep1991singh/flex-classes/issues)
 
 ## License
 Copyright (c) 2016, pradeep singh
