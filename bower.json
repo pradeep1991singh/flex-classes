@@ -2,9 +2,11 @@
   "name": "flex-classes",
   "description": "Flex utility classes",
   "main": "dist/styles.css",
-  "authors": [
-    "Pradeep singh (pradeep1991singh)"
-  ],
+  "author": {
+    "name": "Pradeep singh",
+    "email": "pradeep1991singh@gmail.com",
+    "github": "pradeep1991singh"
+  },
   "license": "ISC",
   "keywords": [
     "flex"
