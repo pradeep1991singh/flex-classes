@@ -6,9 +6,9 @@
 ```
 <link rel="stylesheet" href="dist/styles.css">
 ```
+##### Then add classes to element where you want to use flex classes
 
 ```
-<link rel="stylesheet" href="dist/styles.css">
 <div class="flex__container direction__row-reverse">
 	<div class="flex__item">
 		flex item 1
