@@ -2,6 +2,11 @@
 > Flex utility classes
 
 ## Usage:
+##### Add css file in head tag of html file
+```
+<link rel="stylesheet" href="dist/styles.css">
+```
+
 ```
 <link rel="stylesheet" href="dist/styles.css">
 <div class="flex__container direction__row-reverse">
