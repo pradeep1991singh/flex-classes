@@ -3,7 +3,7 @@
 
 ## Usage:
 ```
-
+<link rel="stylesheet" href="dist/styles.css">
 <div class="flex__container direction__row-reverse">
 	<div class="flex__item">
 		flex item 1
@@ -15,7 +15,6 @@
 		flex item 3
 	</div>
 </div>
-
 ```
 
 ## Installation:
@@ -29,7 +28,7 @@ $ bower install flex-classes --save
 
 Install package and add it to bower.json devDependencies
 
-```
+// ```
 $ bower install flex-classes --save-dev
 ```
 
