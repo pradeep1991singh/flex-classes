@@ -5,8 +5,8 @@ main {
   main h1 {
     text-decoration: underline; }
   main .random__colors__box {
-    color: #89c30a;
-    background-color: rgba(137, 195, 10, 0.12);
+    color: #9ad41e;
+    background-color: rgba(154, 212, 30, 0.89);
     border: 1px solid #000; }
   main .flex__container {
     border: solid #6AC5AC 3px; }
