@@ -12,6 +12,7 @@ var gulp = require('gulp'),
   config = require('./gulp-config'),
   inject = require('gulp-inject'),
   naturalSort = require('gulp-natural-sort'),
+  webserver = require('gulp-webserver'),  
   
   tsConfig = {
     target: 'ES5',
@@ -59,12 +60,18 @@ gulp.task('inject', function () {
 });
 
 // watch changes in sass/ts/html files 
-// gulp.task('sass:watch', function () {
-//   gulp.watch('./sass/**/*.scss', ['sass']);
-// });
 gulp.task('watch', function () {
   gulp.watch('scripts/**/*.ts', ['typescript']);
   gulp.watch('./sass/**/*.scss', ['sass']);
+});
+
+gulp.task('webserver', function() {
+  gulp.src('.')
+    .pipe(webserver({
+      livereload: true,
+      directoryListing: false,
+      open: true
+    }));
 });
 
 // default gulp tasks
@@ -73,6 +80,8 @@ gulp.task('default', function () {
     'clean',
     'sass',
     'typescript',
-    'inject'
+    'inject',
+    'watch',
+    'webserver'
     );
 });

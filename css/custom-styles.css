@@ -1,10 +1,12 @@
 main {
-  font-family: cursive; }
+  font-family: cursive;
+  max-width: 90%;
+  margin: auto; }
   main h1 {
     text-decoration: underline; }
   main .random__colors__box {
-    color: #56caaa;
-    background-color: rgba(86, 202, 170, 0.1);
+    color: #89c30a;
+    background-color: rgba(137, 195, 10, 0.12);
     border: 1px solid #000; }
   main .flex__container {
     border: solid #6AC5AC 3px; }
